@@ -1,0 +1,15 @@
+<ion-view view-title="Books">
+  <ion-nav-buttons side="secondary">
+    <button class="button" ng-click="find()">
+      Refresh
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <ul class="list">
+      <li class="item" ng-repeat="book in books track by book._id">
+        <h3>{{book.title}} <small>by {{book.author}}</small></h3>
+        <p>{{book.review}}</p>
+      </li>
+    </ul>
+  </ion-content>
+</ion-view>

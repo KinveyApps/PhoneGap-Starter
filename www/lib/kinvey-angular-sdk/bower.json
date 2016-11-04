@@ -1,0 +1,21 @@
+{
+  "name": "kinvey-angular-sdk",
+  "description": "Kinvey JavaScript Library for AngularJS applications.",
+  "homepage": "https://www.kinvey.com",
+  "license": "Apache-2.0",
+  "authors": [
+    "Kinvey, Inc."
+  ],
+  "main": "./dist/kinvey-angular-sdk.min.js",
+  "keywords": [
+    "Kinvey",
+    "JavaScript",
+    "Angular",
+    "Ionic"
+  ],
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "README.md"
+  ]
+}

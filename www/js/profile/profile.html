@@ -1,0 +1,26 @@
+<ion-view view-title="Profile">
+  <ion-content>
+    <form ng-submit="update()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Username</span>
+          <input type="text" ng-model="user.data.username">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">First Name</span>
+          <input type="text" ng-model="user.data.firstname">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Last Name</span>
+          <input type="text" ng-model="user.data.lastname">
+        </label>
+        <label class="item">
+          <button class="button button-block button-balanced" type="submit">Update</button>
+        </label>
+        <label class="item" ng-show="showError">
+          <p class="text-danger" style="margin-top: 10px;">{{ error.message }}</p>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>

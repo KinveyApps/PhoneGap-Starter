@@ -1,0 +1,32 @@
+{
+  "name": "kinvey-angular-sdk",
+  "description": "Kinvey JavaScript Library for AngularJS applications.",
+  "homepage": "https://www.kinvey.com",
+  "license": "Apache-2.0",
+  "authors": [
+    "Kinvey, Inc."
+  ],
+  "main": "./dist/kinvey-angular-sdk.min.js",
+  "keywords": [
+    "Kinvey",
+    "JavaScript",
+    "Angular",
+    "Ionic"
+  ],
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "README.md"
+  ],
+  "version": "3.2.2",
+  "_release": "3.2.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.2.2",
+    "commit": "ffeb1b79cfa93793201d233e6392e0325ca382db"
+  },
+  "_source": "https://github.com/Kinvey/kinvey-angular-sdk.git",
+  "_target": "^3.2.2",
+  "_originalSource": "kinvey-angular-sdk",
+  "_direct": true
+}

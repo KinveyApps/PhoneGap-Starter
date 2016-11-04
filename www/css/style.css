@@ -1,0 +1,16 @@
+/* Empty. Add your own CSS if you like */
+
+.item p.text-danger {
+  color: #a94442;
+}
+
+.item p {
+  white-space: normal;
+}
+
+h2 small, h3 small, h4 small {
+  color: #999;
+  display: block;
+  padding: 3px 0;
+  font-size: 11px;
+}
